@@ -19,6 +19,10 @@ let GAME_SETTINGS = {
     maxDelayMs: 5000,
 };
 
+console.clear();
+console.log(`${logPrefix}Starting`, styles.starting);
+console.log(`${logPrefix}Create by VS`, styles.starting);
+
 let isGamePaused = false;
 
 try {
