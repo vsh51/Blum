@@ -20,8 +20,6 @@ let GAME_SETTINGS = {
 };
 
 console.clear();
-console.log(`${logPrefix}Starting`, styles.starting);
-console.log(`${logPrefix}Create by VS`, styles.starting);
 
 let isGamePaused = false;
 
