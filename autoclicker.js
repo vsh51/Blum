@@ -1,5 +1,5 @@
 let GAME_SETTINGS = {
-    minBombHits: Math.floor(Math.random() * 2),
+    minBombHits: Math.floor(Math.random() * 4),
     minIceHits: Math.floor(Math.random() * 2) + 2,
     flowerSkipPercentage: Math.floor(Math.random() * 11) + 15,
     minDelayMs: 2000,
@@ -106,7 +106,7 @@ try {
 
     function resetGameSettings() {
         GAME_SETTINGS = {
-            minBombHits: Math.floor(Math.random() * 2),
+            minBombHits: Math.floor(Math.random() * 4),
             minIceHits: Math.floor(Math.random() * 2) + 2,
             flowerSkipPercentage: Math.floor(Math.random() * 11) + 15,
             minDelayMs: 2000,
